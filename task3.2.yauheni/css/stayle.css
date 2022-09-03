@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto;
+}
+
+header {
+    background-image: url(../images/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-color: rgb(252, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.razdel {
+
+    display: inline-block;
+    background-image: linear-gradient(to top, rgba(252, 252, 252), grey, rgba(252, 252, 252));
+    height: 70px;
+    width: 2px;
+    margin: 30px;
+    vertical-align: middle;
+}
+
+.info {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.bolt {
+
+    color: blue;
+}
